@@ -1,5 +1,5 @@
 # Set the base image to the latest version of Ubuntu
-FROM ubuntu:latest
+FROM ubuntu:25.04
 
 # Declare build-time arguments for the username, password, and timezone
 ARG TZ=Etc/UTC
